@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="cv-left-panle--skills">
-      <div class="cv-left-panle--skills--backend_skills">
+    <div class="cv-left-panel--skills">
+      <div class="cv-left-panel-skill cv-left-panel--skills--backend_skills">
         <div class="global__title_box">
           <svg
             aria-hidden="true"
@@ -42,7 +42,7 @@
           </div>
         </div>
         <div class="progressBar">
-          <h4>Spring- 50%</h4>
+          <h4>Spring- 60%</h4>
           <div class="progressBarContainer--orange progressBarContainer">
             <div
               class="progressBarValue--orange progressBarValue value-60"
@@ -77,7 +77,7 @@
           </div>
         </div>
       </div>
-      <div class="cv-left-panle--skills--frontend_skills">
+      <div class="cv-left-panel-skill cv-left-panel--skills--frontend_skills">
         <div class="global__title_box">
           <svg
             aria-hidden="true"
@@ -97,9 +97,31 @@
           <h3>Frontend Skills</h3>
         </div>
         <div class="progressBar">
-          <h4>Javascript ES6 - ES5 - 80%</h4>
+          <h4>Javascript ES6 - ES5 - 100%</h4>
           <div class="progressBarContainer--red progressBarContainer">
-            <div class="progressBarValue--red progressBarValue value-80"></div>
+            <div class="progressBarValue--red progressBarValue value-100"></div>
+          </div>
+        </div>
+
+        <div class="progressBar">
+          <h4>Next - 60%</h4>
+          <div class="progressBarContainer--red progressBarContainer">
+            <div class="progressBarValue--red progressBarValue value-60"></div>
+          </div>
+        </div>
+
+        <div class="progressBar">
+          <h4>Nuxt - 60%</h4>
+          <div class="progressBarContainer--red progressBarContainer">
+            <div class="progressBarValue--red progressBarValue value-60"></div>
+          </div>
+        </div>
+        <div class="progressBar">
+          <h4>VueJS - 100%</h4>
+          <div class="progressBarContainer--green progressBarContainer">
+            <div
+              class="progressBarValue--green progressBarValue value-100"
+            ></div>
           </div>
         </div>
         <div class="progressBar">
@@ -111,18 +133,10 @@
           </div>
         </div>
         <div class="progressBar">
-          <h4>VueJS - 80%</h4>
+          <h4>AngularJS - 80%</h4>
           <div class="progressBarContainer--green progressBarContainer">
             <div
               class="progressBarValue--green progressBarValue value-80"
-            ></div>
-          </div>
-        </div>
-        <div class="progressBar">
-          <h4>AngularJS - 60%</h4>
-          <div class="progressBarContainer--green progressBarContainer">
-            <div
-              class="progressBarValue--green progressBarValue value-60"
             ></div>
           </div>
         </div>
@@ -138,22 +152,9 @@
             <div class="progressBarValue value-100"></div>
           </div>
         </div>
-        <div class="progressBar">
-          <h4>Next - 40%</h4>
-          <div class="progressBarContainer--red progressBarContainer">
-            <div class="progressBarValue--red progressBarValue value-40"></div>
-          </div>
-        </div>
-
-        <div class="progressBar">
-          <h4>Nuxt - 40%</h4>
-          <div class="progressBarContainer--red progressBarContainer">
-            <div class="progressBarValue--red progressBarValue value-40"></div>
-          </div>
-        </div>
       </div>
 
-      <div>
+      <div class="cv-left-panel-skill cv-left-panel-skill--lang">
         <div class="global__title_box">
           <svg
             aria-hidden="true"
@@ -193,7 +194,7 @@
       </div>
     </div>
 
-    <div class="cv-left-panle--other_info">
+    <div class="cv-left-panel-skill cv-left-panel--other_info">
       <div class="global__title_box">
         <svg
           aria-hidden="true"
@@ -230,25 +231,59 @@
           <div class="progressBarValue value-80"></div>
         </div>
       </div>
+      <div class="progressBar">
+        <h4>Maria DB</h4>
+        <div class="progressBarContainer">
+          <div class="progressBarValue value-80"></div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.cv-left-panle--skills {
-  margin: 20px;
-}
+
 .skills {
   background-color: #574b90;
   height: 100%;
   width: 100%;
   color: white;
   text-align: center;
-  border-top-left-radius: 35px;
+        border-top-left-radius: 20px;
+
 }
 
 .skills svg {
   height: 20px;
+}
+
+.global__title_box {
+  margin-bottom: 60px;
+}
+
+.cv-left-panel-skill {
+  padding: 30px 10px;
+  background-color: #5e519b;
+
+}
+
+.cv-left-panel--skills--backend_skills {
+    background-color: #5e519b;
+    border-top-left-radius: 20px;
+}
+
+.cv-left-panel--skills--frontend_skills {
+  background-color: #4a3f7a;
+  border-bottom-left-radius: 20px;
+}
+
+.cv-left-panel-skill--lang {
+  background-color: #5e519b;
+}
+
+.cv-left-panel--other_info {
+  background-color: #4a3f7a;
+  border-top-left-radius: 20px;
 }
 
 /* third party*/
@@ -257,7 +292,7 @@
 ///////////////////////////////////////////////////////*/
 
 .progressBar {
-  margin-bottom: 23px;
+  margin-bottom: 30px;
 }
 
 .progressBar h4 {

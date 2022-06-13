@@ -2,7 +2,7 @@
                 <div class="cv-right-panel--container cv-right-panel--resume">
                     <p>
                         Fullstack developer from Argentina. Now living in Spain, Barcelona. <br/>
-                        I have +8 years of experience in software development on different technologies
+                        I have +9 years of experience in software development on different technologies.
                         I started as Java Developer and expanded to the web world after learning javascript many years ago.
                         Today i do mostly fullstack jobs that include both backend and frontend in a wide range of technologies <br/>
                         I'm looking for experiences, i am always eager to learn. <br/>
